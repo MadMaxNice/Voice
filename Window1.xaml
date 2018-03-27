@@ -1,0 +1,60 @@
+﻿<Window x:Class="WpfApplication42.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="362" Width="598" WindowStyle="None">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="image/sn3mjSdQlCM.jpg"/>
+        </Grid.Background>
+        <Button Content="Открыть дверь&#xD;&#xA;" HorizontalAlignment="Left" Height="110" Margin="10,10,0,0" VerticalAlignment="Top" Width="142" Foreground="#FF3754A2" FontSize="16" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="image/Без названия (1).png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Закрыть дверь" HorizontalAlignment="Left" Height="95" Margin="10,125,0,0" VerticalAlignment="Top" Width="142" Foreground="#FF0E0E8B" FontSize="16" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="image/opened-door-aperture_318-75557.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Время" HorizontalAlignment="Left" Height="97" Margin="10,225,0,0" VerticalAlignment="Top" Width="142" FontSize="16" Foreground="#FF2A30AC" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="image/w512h5121390855838watch512.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Погода" HorizontalAlignment="Left" Height="97" Margin="157,226,0,0" VerticalAlignment="Top" Width="142" Foreground="#FF122872" FontSize="16" FontWeight="Bold" Click="Button_Click_5">
+            <Button.Background>
+                <ImageBrush ImageSource="image/Без названия (2).png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Открыть окно" HorizontalAlignment="Left" Height="110" Margin="304,10,0,0" VerticalAlignment="Top" Width="142" Foreground="#FF2F6FCB" FontSize="16" Click="Button_Click_6">
+            <Button.Background>
+                <ImageBrush ImageSource="image/open_window-512.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Закрыть окно&#xD;&#xA;" HorizontalAlignment="Left" Height="95" Margin="304,125,0,0" VerticalAlignment="Top" Width="142" Foreground="#FF265EC1" FontSize="16" Click="Button_Click_7">
+            <Button.Background>
+                <ImageBrush ImageSource="image/maximize_window1600.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Выключить свет" HorizontalAlignment="Left" Height="95" Margin="157,125,0,0" VerticalAlignment="Top" Width="142" Foreground="#FF4254C7" FontSize="16" Click="Button_Click_4">
+            <Button.Background>
+                <ImageBrush ImageSource="image/ideabulb_idea_4508.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Включить свет" HorizontalAlignment="Left" Height="110" Margin="157,10,0,0" VerticalAlignment="Top" Width="142" BorderBrush="#FF2F6FCB" Foreground="#FF4254C7" FontSize="16" Click="Button_Click_3">
+            <Button.Background>
+                <ImageBrush ImageSource="image/w256h25613715677480015LightBulb.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Назад" HorizontalAlignment="Left" Height="63" Margin="466,273,0,0" VerticalAlignment="Top" Width="123" Foreground="#FF1F2491" FontSize="16" Click="Button_Click_8">
+            <Button.Background>
+                <ImageBrush ImageSource="image/arrow_right_2.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Музыка" HorizontalAlignment="Left" Height="95" Margin="304,227,0,0" VerticalAlignment="Top" Width="142" Foreground="#FF265EC1" FontSize="16" Click="Button_Click_7">
+            <Button.Background>
+                <ImageBrush ImageSource="image/maximize_window1600.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
